@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Acme App</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features Section with Custom Icons</title>
     <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <!-- Start Coding Here -->
-  </body>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#F6F6FB] min-h-screen flex items-center justify-center p-6 md:p-12">
+
+    <div class="max-w-6xl w-full grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <div class="bg-[#EAF1FE] rounded-[24px] p-8 flex flex-col">
+            <div class="bg-white w-14 h-14 rounded-2xl flex items-center justify-center mb-6 shadow-sm">
+                <img src="Vector-1.png" alt="Workflow Icon" class="w-6 h-6 object-contain">
+            </div>
+            <h3 class="text-[#1A1A2C] text-[20px] font-bold mb-3 tracking-tight">Streamlined Workflows</h3>
+            <p class="text-[#5F5F76] text-base leading-relaxed">
+                Automate repetitive tasks and focus on high-impact work with our powerful productivity features.
+            </p>
+        </div>
+
+        <div class="bg-[#EAEBFE] rounded-[24px] p-8 flex flex-col">
+            <div class="bg-white w-14 h-14 rounded-2xl flex items-center justify-center mb-6 shadow-sm">
+                <img src="Vector-2.png" alt="Performance Icon" class="w-6 h-6 object-contain">
+            </div>
+            <h3 class="text-[#1A1A2C] text-[20px] font-bold mb-3 tracking-tight">Blazing Fast Performance</h3>
+            <p class="text-[#5F5F76] text-base leading-relaxed">
+                Experience lightning-fast performance and instant responsiveness with our cutting-edge technology.
+            </p>
+        </div>
+
+        <div class="bg-[#F4E8FE] rounded-[24px] p-8 flex flex-col">
+            <div class="bg-white w-14 h-14 rounded-2xl flex items-center justify-center mb-6 shadow-sm">
+                <img src="Vector-3.png" alt="Performance Icon" class="w-6 h-6 object-contain">
+              </div>
+            <h3 class="text-[#1A1A2C] text-[20px] font-bold mb-3 tracking-tight">Intuitive Interface</h3>
+            <p class="text-[#5F5F76] text-base leading-relaxed">
+                Our user-friendly interface makes it easy for anyone to streamline their workflow.
+            </p>
+        </div>
+
+    </div>
+
+</body>
 </html>
