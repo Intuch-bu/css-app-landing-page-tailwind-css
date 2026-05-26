@@ -8,14 +8,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-400">
-    <nav class="bg-white rounded-full py-[12px] px-[80px] flex justify-between">
-      <img src="logo.png" alt="Acme Logo">
-      <wrapper class="flex gap-[56px]">
-        <a href="#">Home</a>
-        <a href="#">Features</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
-      </wrapper>
+    <nav class="p-[24px]">
+      <navbar class="bg-white rounded-full py-[12px] px-[80px] flex justify-between border">
+        <img src="logo.png" alt="Acme Logo">
+        <wrapper class="flex justify-between gap-5">
+          <a href="#" class="text-indigo-600 underline">Home</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Contact</a>
+        </wrapper>
+      </navbar>
+      <hero>
+        <div><p>🌈️ Acme Productivity App</p></div>
+        <div>
+          <h1>Boost Your Productivity</h1>
+          <h3>Streamline your workflow with our all-in-one productivity app.</h3>
+        </div>
+        <button>Start Free Trial</button>
+      </hero>
     </nav>
   </body>
 </html>
